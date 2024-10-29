@@ -1,0 +1,146 @@
+<!DOCTYPE html> <!--To Do =  fix bullentin, centered?, add screenshots when done-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            body,h1,h2,h3,h4{
+                font-family: sans-serif, sans-serif;
+            }
+            h1{
+                text-align: center;
+                margin-bottom: 50px;
+                font-size: 80px;
+            }
+            body {
+                background-image: url('back3.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            h2,h3,h4{
+                text-align: center;
+                margin-bottom: 10px;
+                font-size: 50px;
+            }
+            h4{
+                margin-top: 150px;
+            }
+            .photome{
+                display: block;
+                margin-left: 100px;
+                margin-right: auto;
+                float: left;
+            }
+            .Project{
+                display: inline-block;
+                text-align: center;
+                padding: 20px;
+            }
+            .Project img{
+                
+                margin-bottom: 10px;
+            }
+            .Project button{
+                padding: 10px 20px;
+                background-color: #883381;
+                color: white;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+            .project-container{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 50px;
+            }
+            .aboutme{
+                margin-left: 450px;
+                text-align: center;
+                font-size: 25px;
+            }
+            .header{
+                margin-top: 100px;
+            }
+            .info{
+                text-align: center;
+                font-size: 25px;
+                font-family: sans-serif, sans-serif;
+            }
+            ul{
+                list-style: inside;
+                text-align: center;
+            }
+            li{
+                font-size: 25px;
+                font-family: sans-serif, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Zander Davis</h1>
+        <p class="info">
+            <b>Phone:</b> 417-214-8269&emsp;
+            <b>Email:</b> zdavis708@gmail.com&emsp;
+            <b>Github:</b> <a href="https://github.com/ZanderDavis">https://github.com/ZanderDavis</a>
+          </p>
+        <img src="porfolio.jpg" class="photome" width="200" height="500">
+        
+        <div class="aboutme">
+            <h2>About Me</h2> <!-- write about any importatn stuff that employees care about and include a picture -->
+            <p>My name is Zander Davis, and welcome to my portfolio! First, I want to thank you for taking the time to check it out. 
+                I graduated from Missouri State University in 2024. I received my Bachelor's degree in Computer Science with a focus on 
+                their computer science option. I also earned a minor in Mathematics and a certificate in Web Programming. 
+                I have worked with several different programming languages, including C++, Python, SQL, JavaScript, C#, Kotlin, and HTML/CSS.
+                I began studying computer science during my sophomore year of college. Initially, I pursued engineering, 
+                thinking I would enjoy it. However, after a year, I realized it wasn't the right fit for me. I decided to 
+                switch to computer science after taking a Python class as part of my electrical engineering coursework. I was hooked 
+                from that moment on. I loved the ability to create anything I wanted, from programs to automate tasks to 
+                potentially even games if I had the time. Ultimately, I enjoy writing and building new projects and creating cool 
+                programs that can make life easier.
+            </p>
+        </div>
+
+        <h4>Tools, Skills and Education</h4>
+        <ul>
+            <li>Major: Computer Science</li>
+            <li>Minor: Mathematics</li>
+            <li>Certificate: Web Programming</li>
+            <li>Languages: C++, Python, SQL, JavaScript, C#, Kotlin and HTML/CSS</li>
+            <!--<li>API: OpenWeather Weather API</li>-->
+            <li>IDE: Visual Studio Code, Android Studio, PyCharm, Eclipse, Notepad++, and IntelliJ Idea</li>
+            <li>Framework: React node JS</li>
+        </ul>
+
+        <div class="header">
+            <h3>Projects</h3> <!-- show all projects including ones i havent done yet and include logo and button link. Takes to github file -->
+        </div>
+        <div class="project-container">
+            <div class="Project">
+                <img src="CamTrainerLogo.png" alt="CamTrainer Logo" width="200" height="200">
+                <a href ="CamTrain.html">
+                    <button type="button">CamTrainer</button>
+                </a>
+            </div><!--
+            <div class="Project">
+                <img src="StormReaderlogo.png" alt="storm Logo" width="200" height="200">
+                <a href ="Storm.html">
+                    <button type="button">Storm Reader</button>
+                </a>
+            </div>
+            -->
+            <div class="Project">
+                <img src="FocusNowLogo.png" alt="Focus Logo" width="200" height="200">
+                <a href ="Focus.html">
+                    <button type="button">Focus Now</button>
+                </a>
+            </div>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
